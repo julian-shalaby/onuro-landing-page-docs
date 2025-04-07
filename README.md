@@ -1,32 +1,38 @@
-# Mintlify Starter Kit
+# Onuro Documentation
 
-Click on `Use this template` to copy the Mintlify starter kit. The starter kit contains examples including
+This repository contains the documentation for Onuro's AI-powered development tools. The documentation covers:
 
-- Guide pages
-- Navigation
-- Customizations
-- API Reference pages
-- Use of popular components
+- IDE Extensions
+- Web & Mobile Apps
+- Chrome Extension
+- AI Capabilities
+- Context Management
+- Advanced Features
 
 ### Development
 
-Install the [Mintlify CLI](https://www.npmjs.com/package/mintlify) to preview the documentation changes locally. To install, use the following command
+To preview the documentation locally, first install the [Mintlify CLI](https://www.npmjs.com/package/mintlify):
 
-```
+```bash
 npm i -g mintlify
 ```
 
-Run the following command at the root of your documentation (where docs.json is)
+Then run the following command at the root of the documentation (where docs.json is):
 
-```
+```bash
 mintlify dev
 ```
 
 ### Publishing Changes
 
-Install our Github App to auto propagate changes from your repo to your deployment. Changes will be deployed to production automatically after pushing to the default branch. Find the link to install on your dashboard. 
+Changes will be automatically deployed when pushed to the main branch. To enable automatic deployments:
 
-#### Troubleshooting
+1. Install the Onuro GitHub App from your dashboard
+2. Connect it to your documentation repository
+3. Push changes to your default branch
 
-- Mintlify dev isn't running - Run `mintlify install` it'll re-install dependencies.
-- Page loads as a 404 - Make sure you are running in a folder with `docs.json`
+### Troubleshooting
+
+- If Mintlify dev isn't running - Run `mintlify install` to re-install dependencies
+- If page loads as a 404 - Make sure you are running in a folder with `docs.json`
+- For other issues, please contact the Onuro team

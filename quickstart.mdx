@@ -1,97 +1,111 @@
 ---
 title: 'Quickstart'
-description: 'Start building awesome documentation in under 5 minutes'
+description: 'Get started with Onuro in minutes'
 ---
 
-## Setup your development
+## Quick Setup Guide
 
-Learn how to update your docs locally and deploy them to the public.
+Get up and running with Onuro's AI-enhanced development tools quickly.
 
-### Edit and preview
+### Choose Your Platform
 
 <AccordionGroup>
-  <Accordion icon="github" title="Clone your docs locally">
-    During the onboarding process, we created a repository on your Github with
-    your docs content. You can find this repository on our
-    [dashboard](https://dashboard.mintlify.com). To clone the repository
-    locally, follow these
-    [instructions](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository)
-    in your terminal.
+  <Accordion icon="globe" title="Web & Mobile Apps">
+    1. Visit [app.onuro.ai](https://app.onuro.ai)
+    2. Sign in or create an account
+    3. Start using Onuro's AI assistant right in your browser
   </Accordion>
-  <Accordion icon="rectangle-terminal" title="Preview changes">
-    Previewing helps you make sure your changes look as intended. We built a
-    command line interface to render these changes locally. 
-    1. Install the
-    [Mintlify CLI](https://www.npmjs.com/package/mintlify) to preview the
-    documentation changes locally with this command: ``` npm i -g mintlify ```
-    2. Run the following command at the root of your documentation (where
-    `docs.json` is): ``` mintlify dev ```
-    <Note>
-      If you’re currently using the legacy ```mint.json``` configuration file, please update the Mintlify CLI:
 
+  <Accordion icon="code" title="IDE Extensions">
+    1. Install the Onuro extension for your IDE:
+       - [VS Code Extension](https://marketplace.visualstudio.com/items?itemName=onuro.vscode)
+       - [JetBrains Extension](https://plugins.jetbrains.com/plugin/onuro)
+    2. Sign in with your Onuro account
+    3. Start using AI-powered development tools
+  </Accordion>
 
-      ```npm i -g mintlify@latest```
-      And run the new upgrade command in your docs repository:
-
-      ```mintlify upgrade```
-      You should now be using the new ```docs.json``` configuration file. Feel free to delete the ```mint.json``` file from your repository.
-    </Note>
+  <Accordion icon="chrome" title="Chrome Extension">
+    1. Install Onuro from the [Chrome Web Store](https://chrome.google.com/webstore/detail/onuro)
+    2. Sign in with your Onuro account
+    3. Access AI assistance anywhere while browsing
   </Accordion>
 </AccordionGroup>
 
-### Deploy your changes
+### First Steps
 
-<AccordionGroup>
+<Steps>
+  1. Choose Your Environment
+     - Web & Mobile Apps for general AI assistance
+     - IDE Extensions for coding and development
+     - Chrome Extension for browsing assistance
 
-<Accordion icon="message-bot" title="Install our Github app">
-  Our Github app automatically deploys your changes to your docs site, so you
-  don't need to manage deployments yourself. You can find the link to install on
-  your [dashboard](https://dashboard.mintlify.com). Once the bot has been
-  successfully installed, there should be a check mark next to the commit hash
-  of the repo.
-</Accordion>
-<Accordion icon="rocket" title="Push your changes">
-  [Commit and push your changes to
-  Git](https://docs.github.com/en/get-started/using-git/pushing-commits-to-a-remote-repository#about-git-push)
-  for your changes to update in your docs site. If you push and don't see that
-  the Github app successfully deployed your changes, you can also manually
-  update your docs through our [dashboard](https://dashboard.mintlify.com).
-</Accordion>
+  2. Enable AI Features
+     - Configure your preferred AI model
+     - Set up context management
+     - Customize your experience
 
-</AccordionGroup>
+  3. Start Using Onuro
+     - Try code completion
+     - Ask for explanations
+     - Get AI-powered suggestions
+</Steps>
 
-## Update your docs
+## Essential Features
 
-Add content directly in your files with MDX syntax and React components. You can use any of our components, or even build your own.
+Learn about the most commonly used features to get started quickly.
 
 <CardGroup>
+  <Card
+    title="File Context"
+    icon="folder-tree"
+    href="/ide/context-management"
+  >
+    Learn how to manage which files the AI can see and work with
+  </Card>
 
-<Card title="Add Content With MDX" icon="file" href="/essentials/markdown">
-  Add content to your docs with MDX syntax.
-</Card>
+  <Card
+    title="AI Commands"
+    icon="terminal"
+    href="/ide/ai-capabilities"
+  >
+    Discover basic AI commands and capabilities
+  </Card>
 
-<Card
-  title="Add Code Blocks"
-  icon="square-code"
-  href="/essentials/code"
->
-  Add code directly to your docs with syntax highlighting.
-</Card>
+  <Card
+    title="Code Search"
+    icon="magnifying-glass"
+    href="/ide/codebase-search"
+  >
+    Search your codebase using natural language
+  </Card>
 
-<Card
-  title="Add Images"
-  icon="image"
-  href="/essentials/images"
->
-  Add images to your docs to make them more engaging.
-</Card>
+  <Card
+    title="State Management"
+    icon="code-branch"
+    href="/ide/state-management"
+  >
+    Track and manage AI-suggested changes
+  </Card>
+</CardGroup>
 
-<Card
-  title="Add Custom Components"
-  icon="puzzle-piece"
-  href="/essentials/reusable-snippets"
->
-  Add templates to your docs to make them more reusable.
-</Card>
+## Next Steps
 
+After getting familiar with the basics, explore these features to maximize your productivity:
+
+<CardGroup cols={2}>
+  <Card
+    title="Advanced AI Features"
+    icon="wand-magic-sparkles"
+    href="/ide/ai-capabilities"
+  >
+    Explore advanced capabilities like deep research and image generation
+  </Card>
+
+  <Card
+    title="Customization"
+    icon="sliders"
+    href="/ide/customization"
+  >
+    Learn how to customize Onuro to your workflow
+  </Card>
 </CardGroup>
