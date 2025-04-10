@@ -48,18 +48,7 @@
     "light": "/logo/aiAvatarBwLight.svg",
     "dark": "/logo/aiAvatarBwLight.svg"
   },
-  "navbar": {
-    "links": [
-      {
-        "label": "Platforms",
-        "href": "https://onuro.ai/platforms"
-      },
-      {
-        "label": "Pricing",
-        "href": "https://onuro.ai/pricing"
-      }
-    ]
-  },
+  "navbar": {},
   "feedback": {
     "suggestEdit": true,
     "raiseIssue": true
